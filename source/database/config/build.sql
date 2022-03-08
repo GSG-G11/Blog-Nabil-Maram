@@ -32,15 +32,13 @@ INSERT INTO users (name) VALUES
 ('Israa Rayya'),
 ('Jehad Abushaqra'),
 ('Karam Zomlut'),
+('Maram Msabeh'),
 ('Mahmoud Alhato'),
 ('Manar Abedalhadi'),
-('Maram Msabeh'),
 ('Mohamed Helles'),
 ('Mohammad AlHabil'),
 ('mostafa qanoo'),
 ('Nabil AbuShaban'),
 ('Nada Abuzaid'),
 ('Rawan Algharabli');
-
-
 COMMIT;
