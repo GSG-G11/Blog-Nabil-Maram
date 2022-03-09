@@ -23,9 +23,9 @@
   <div class="container">
    <main>
      <div class="feedback-box">
-       <form action="/feedback">
-        <input id="title" type="text" placeholder="Write advice or comment or ...">
-        <textarea name="massage" id="massage" cols="65" rows="10"></textarea>
+       <form action="/feedback/1" method="post">
+        <input  name="title" id="title" type="text" placeholder="Write advice or comment or ...">
+        <textarea name="content" id="massage" cols="65" rows="10"></textarea>
 
         <button id="btn" type="submit"> Send</button>
        </form>
