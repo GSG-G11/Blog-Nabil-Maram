@@ -69,15 +69,27 @@
   }
   
   /* ----------------------- style --------------------------*/
+  header h1{
+    font-family:'Montserrat';
+    margin: 10px 0px;
+    padding: 0px 20px;
+    color: #EF9318;
+  }
+  .first-container{
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+  }
 .mentors{
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: var(--black);
+    justify-content: center; */
+    /* background-color: var(--black); */
     cursor: pointer;
+    /* color: #000000; */
    
 }
 .second-container {
@@ -101,8 +113,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: 0.5s all ease-in-out;
 
 }
+.students:hover{
+margin-top: -10px;
+}
+
 div.mentors p, div.students p {
   display: block;
   font-size: 18px;
@@ -113,8 +130,15 @@ div.mentors p, div.students p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-family: 'Montserrat';
 }
-
+div.mentors p{
+  color: #000000;
+  transition: 0.5s all ease-in-out;
+}
+div.mentors p:hover{
+  color: orange;
+}
 .green {
   background-color: #F50A29;
 }
