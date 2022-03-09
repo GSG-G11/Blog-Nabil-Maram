@@ -1,10 +1,10 @@
 BEGIN;
 
-DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXISTS users,feedbacks  CASCADE;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL
 );
 
 
@@ -12,7 +12,7 @@ CREATE TABLE feedbacks (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
   content text NOT NULL,
-  user_id INT FOREIGN KEY REFERENCES users(id)
+  user_id INT  REFERENCES users(id)
 );
 
 
