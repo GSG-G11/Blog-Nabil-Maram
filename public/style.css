@@ -38,7 +38,10 @@
     background-color: var(--white);
     overflow-x: hidden;
   }
-  
+  .container{
+    width: 85%;
+    margin: auto;
+  }
   select,
   button,
   button:focus,
@@ -100,7 +103,7 @@
     cursor: pointer;
 
 }
-div p {
+div.mentors p, div.students p {
   display: block;
   font-size: 18px;
   font-weight: 700;
@@ -145,3 +148,72 @@ div p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+  /*------------------------ FeedBack Page-------------------*/
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .feedback-box{
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    margin-top: 30px;
+  }
+  #title{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    outline: orange;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+  }
+  textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    outline: orange;
+    padding: 10px;
+  }
+  textarea:focus{
+    border: 1px solid orange;
+  }
+  #btn{
+    background-color: transparent;
+    padding:10px 20px;
+    border: 1px solid orange;
+    font-family:'Montserrat';
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+  }
+  #btn:hover{
+    background-color: #000000;
+    color: orange;
+    border: 1px solid orange;
+
+  }
+  .all-feedback{
+    width: 50%;
+    height: 150px;
+    margin: 50px auto 10px auto;
+    /* background-color:#EDEDED; */
+    border: 2px solid #EDEDED;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px;
+  
+  }
+  .all-feedback p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
