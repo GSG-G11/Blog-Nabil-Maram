@@ -1,6 +1,8 @@
 require('env2')('.env');
 const {Pool} = require("pg");
 
+
+
 let DB_URL = ""
 
 if(process.env.NODE_ENV === 'production') {
