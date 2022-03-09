@@ -69,6 +69,85 @@
   }
   
   /* ----------------------- style --------------------------*/
+.mentors{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    cursor: pointer;
+   
+}
+.second-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    row-gap: 20px;
+    margin-top: 30px;
+
+  }
+
+
+
+.students {
+  height: 150px;
+    width: 140px;
+    margin: 0 auto;
+    background-color: #BC4460;
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+div.mentors p, div.students p {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.green {
+  background-color: #F50A29;
+}
+.rosy {
+  background-color: #FDBCC5;
+}
+.dark-blue {
+  background-color: #01636C;
+}
+.light-blue {
+  background-color: #27D1D4;
+}
+.yellow {
+  background-color: #EF9318;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .second-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .second-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .second-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
   /*------------------------ FeedBack Page-------------------*/
 

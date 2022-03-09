@@ -41,4 +41,5 @@ INSERT INTO users (name) VALUES
 ('Nabil AbuShaban'),
 ('Nada Abuzaid'),
 ('Rawan Algharabli');
+
 COMMIT;
