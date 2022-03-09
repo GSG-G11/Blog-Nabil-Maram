@@ -227,3 +227,6 @@ textarea:focus {
   font-size: 1rem;
   margin-bottom: 20px;
 }
+.logo{
+  cursor: pointer;
+}

@@ -1,7 +1,12 @@
 const router = require('express').Router();
-const {getDataFun , postData} = require("../controllers/")
+const {getDataFun , postData, notFound, getNameFun} = require("../controllers/")
 
 router.post("/feedback/:id" ,postData )
 
 router.get("/result/:id",getDataFun)
-module.exports = router 
+
+router.get("/names",getNameFun)
+
+router.use(notFound)
+
+module.exports = router;
