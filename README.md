@@ -20,7 +20,7 @@ Our website to add your opinion or write advice or anything to any person in the
 
 ## :paperclip: <span id='Schema'>Schema</span>
 
-![](https://drive.google.com/file/d/1nxhaj_gQKqZ19zlwAzM-1CQAlc7cEWKK/view?usp=sharing.png)
+![](https://cdn.discordapp.com/attachments/937622536064213002/951403357954793493/sch.PNG)
 
 ## :world_map: <span id='Journey'>User Journey</span>
 
